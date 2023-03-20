@@ -1,4 +1,4 @@
-package com.team3.account;
+package com.team3.account.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,3 +24,5 @@ public class CorsConfig {
         };
     }
 }
+
+

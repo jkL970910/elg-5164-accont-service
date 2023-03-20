@@ -1,4 +1,4 @@
-package com4.team3.Account;
+package com.team3.Account;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -45,7 +45,7 @@ public class AccountService {
         }
     }
 
-    public void deleteAllProducts() {
+    public void deleteAllAccounts() {
         accountRepository.deleteAll();
     }
 
