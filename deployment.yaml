@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: github-actions-gke-account
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: github-actions-gke-account
+  template:
+    metadata:
+      labels:
+        app: github-actions-gke-account
+    spec:
+      containers:
+        - name: app
+          image: gcr.io/elg5164project/account-gke-image:1.0.0
+          imagePullPolicy: Always
