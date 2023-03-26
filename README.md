@@ -1,5 +1,5 @@
 # elg5164-account-microservice
-This is a microservice for managing products in a SOA microservice architecture e-commerce platform. The microservice provides APIs for performing CRUD operations on products.
+This is a microservice for managing accounts in a SOA microservice architecture e-commerce platform. The microservice provides APIs for performing CRUD operations on accounts.
 ## API Endpoints
 Get all accounts: 
 ```
