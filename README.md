@@ -1,7 +1,7 @@
 # elg5164-account-microservice
 This is a microservice for managing accounts in a SOA microservice architecture e-commerce platform. The microservice provides APIs for performing CRUD operations on accounts.
 ## API Endpoints 
-Current Base URL: 34.23.38.111 
+Current Base URL: http://34.23.38.111 
 
 Get all accounts: 
 ```
