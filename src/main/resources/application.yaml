@@ -10,7 +10,7 @@ spring:
       ddl-auto: update
     show-sql: true
   hikari:
-    maximum-pool-size: 25
+    maximum-pool-size: 14
     minimum-idle: 1
 
 server:
